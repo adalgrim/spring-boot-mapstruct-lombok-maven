@@ -1,0 +1,6 @@
+**/pom.xml.versionsBackup
+**/target/
+.idea/
+*.iml
+*.classpath
+*.project
