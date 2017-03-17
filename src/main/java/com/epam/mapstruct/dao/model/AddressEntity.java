@@ -5,10 +5,21 @@ package com.epam.mapstruct.dao.model;
  */
 public class AddressEntity {
 
+    private Location locationType;
+
     private String location;
 
-    public AddressEntity(String location) {
+    public AddressEntity(String location, Location locationType) {
         this.location = location;
+        this.locationType = locationType;
+    }
+
+    public Location getLocationType() {
+        return locationType;
+    }
+
+    public void setLocationType(Location locationType) {
+        this.locationType = locationType;
     }
 
     public String getLocation() {

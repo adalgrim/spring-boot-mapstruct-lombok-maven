@@ -7,5 +7,8 @@ import lombok.Data;
  */
 @Data
 public class AddressDTO {
+
+    private LocationDTO locationType;
+
     private String location;
 }
